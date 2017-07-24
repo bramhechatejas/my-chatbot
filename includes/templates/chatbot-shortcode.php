@@ -8,8 +8,19 @@
 </div>
 
 <script>
-function myFunction() {
-    document.getElementById('test').hidden = "";
+var flag = "true";
+function myFunction() 
+{
+    	if(flag == "true")
+	{
+		document.getElementById('myc-container').hidden="";
+		flag = "false"
+	}
+	else
+	{
+		document.getElementById('myc-container').hidden="hidden";
+		flag = "true";
+	}
 }
 </script>
 
