@@ -9,7 +9,7 @@
 
 <script>
 function myFunction() {
-    document.getElementById('myc-container').hidden = "";
+    document.getElementById('test').hidden = "";
 }
 </script>
 
