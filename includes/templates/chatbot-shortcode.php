@@ -1,5 +1,3 @@
-<button id="demo" onclick="myFunction()">Click me</button>
-
 <div id="myc-container" hidden="hidden">
 <div id="myc-conversation-area" ></div>
 <div id="myc-input-area" >
@@ -25,6 +23,7 @@ function myFunction() {
 	}
 }
 </script>
+<button id="demo" onclick="myFunction()">Click me</button>
 <?php if ( $debug ) { ?>
 	<div class="myc-debug">
 		<textarea id="myc-debug-data" cols="80" rows="20" disabled></textarea>
